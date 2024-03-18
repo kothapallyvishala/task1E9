@@ -1,0 +1,40 @@
+@media (min-width: 640px) {
+  .header__right {
+    display: flex;
+  }
+  .hero {
+    flex-direction: row;
+  }
+  .advisors {
+    display: flex;
+  }
+  .footer__links {
+    gap: 12rem;
+    flex-direction: row;
+  }
+  .main__section__desc {
+    font-size: x-large;
+  }
+  .sub {
+    flex-direction: row;
+  }
+  /* .input__feilds {
+    flex-direction: row;
+  } */
+  .inputs {
+    flex-direction: row;
+  }
+  .assessment {
+    flex-direction: row;
+  }
+  .login-main {
+    min-height: 70vh;
+  }
+
+  #burger-btn {
+    display: none;
+  }
+}
+
+@media (min-width: 1024px) {
+}

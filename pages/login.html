@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../pages/login.css" />
+    <link rel="stylesheet" href="../footer.css" />
+    <link rel="stylesheet" href="../reset.css" />
+    <link rel="stylesheet" href="../header.css" />
+    <link rel="stylesheet" href="../desktop.css" />
+    <script src="../index.js" defer></script>
+    <title>Document</title>
+  </head>
+
+  <body>
+    <header class="header">
+      <div class="header__left">
+        <a href="index.html">
+          <img class="logo" src="../assets/logo.svg" alt="" />
+          <img src="../assets/logo_enineschool.svg" alt="" />
+        </a>
+      </div>
+
+      <div class="header__right">
+        <a href="../pages/apply.html">APPLY</a>
+        <a href="../pages/login.html">LOGIN</a>
+      </div>
+
+      <button id="burger-btn">
+        <svg
+          stroke="currentColor"
+          fill="currentColor"
+          stroke-width="0"
+          viewBox="0 0 24 24"
+          class="App-header-menu-icon"
+          height="1em"
+          width="1em"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <g>
+            <path fill="none" d="M0 0h24v24H0z"></path>
+            <path d="M3 4h18v2H3V4zm0 7h18v2H3v-2zm0 7h18v2H3v-2z"></path>
+          </g>
+        </svg>
+      </button>
+
+      <nav id="mobile-navigation">
+        <button id="x-btn">
+          <svg
+            stroke="currentColor"
+            fill="none"
+            stroke-width="2"
+            viewBox="0 0 24 24"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            class="App-header-menu-icon"
+            height="1em"
+            width="1em"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <line x1="18" y1="6" x2="6" y2="18"></line>
+            <line x1="6" y1="6" x2="18" y2="18"></line>
+          </svg>
+        </button>
+
+        <div class="m-nav__links">
+          <a href="../pages/apply.html">APPLY</a>
+          <a href="../pages/login.html">LOGIN</a>
+        </div>
+      </nav>
+    </header>
+    <main class="login-main">
+      <div class="container">
+        <form>
+          <div class="form__container">
+            <label for="exampleInputEmail1" class="form-label"
+              >Email address <span class="asteric">*</span></label
+            >
+            <input
+              type="email"
+              class="form-control"
+              id="exampleInputEmail1"
+              placeholder="email@qux.dev"
+              aria-describedby="emailHelp"
+            />
+          </div>
+          <div class="form__container">
+            <label for="exampleInputPassword1" class="form-label label-2"
+              ><p>Password <span class="asteric">*</span></p>
+              <p>
+                <span class="asteric2 text-danger">Forgot password?</span>
+              </p></label
+            >
+            <input
+              type="password"
+              class="form-control"
+              id="exampleInputPassword1"
+              placeholder="password"
+            />
+          </div>
+
+          <button type="submit" class="btn">Login</button>
+        </form>
+      </div>
+    </main>
+    <footer>
+      <div class="footer__top">
+        <div class="advisors">
+          <p href="">1E9 Advisors</p>
+          <ul>
+            <li>Varsha Court, 5th Floor</li>
+            <li>66 Anand Park</li>
+            <li>Pune, MH 411007</li>
+          </ul>
+        </div>
+        <div class="footer__right">
+          <div class="footer__links">
+            <div class="program">
+              <a href="">Program</a>
+              <ul>
+                <li>
+                  <a href="">Apply</a>
+                </li>
+                <li><a href="">Curriculum</a></li>
+                <li><a href="">Handbook</a></li>
+              </ul>
+            </div>
+            <div class="program">
+              <a href="">Company</a>
+              <ul>
+                <li>
+                  <a href="">About Us</a>
+                </li>
+                <li>
+                  <a href="">Privacy Policy</a>
+                </li>
+                <li>
+                  <a href="">Terms of Use</a>
+                </li>
+              </ul>
+            </div>
+            <div class="program">
+              <a href="">Contact Us</a>
+              <ul>
+                <li>
+                  <a href="">learn@enine.school</a>
+                </li>
+                <li>
+                  <a href="">+91 92092 ENINE</a>
+                </li>
+                <li>
+                  <a href="">Make an appointment</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="copy__right">
+            Copyright © 2017-2024 1E9 Advisors All Rights Reserved
+          </div>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

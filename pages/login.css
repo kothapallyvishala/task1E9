@@ -1,0 +1,69 @@
+.form-div {
+  width: 95%;
+  max-width: 500px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 80px;
+}
+
+.asteric {
+  font-size: 20px;
+  color: red;
+}
+.asteric2 {
+  font-size: 15px;
+}
+.label-2 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.label-2 p {
+  margin-bottom: 0;
+}
+.btn {
+  border: 1px solid rgb(13, 133, 254);
+  color: rgb(13, 133, 254);
+  padding: 5px;
+  border-radius: 5px;
+}
+.btn:hover {
+  background-color: rgb(13, 133, 254);
+  color: white;
+}
+
+.login-main {
+  max-width: 1350px;
+  width: 100%;
+  padding: 10px 10px;
+  margin: 0 auto;
+  min-height: 40vh;
+}
+
+.container {
+  display: grid;
+  place-items: center;
+}
+
+form {
+  max-width: 480px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding-top: 4rem;
+}
+
+.form__container input {
+  border-radius: 5px;
+}
+
+.form__container {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.text-danger {
+  color: red;
+}
